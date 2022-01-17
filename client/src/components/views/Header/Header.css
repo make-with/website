@@ -1,0 +1,167 @@
+header {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+  background-color: #fff;
+  z-index: 9;
+}
+header nav.pc {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+header .pc .logo img {
+  width: 190px;
+}
+header .pc .gnb {
+  display: flex;
+  margin-left: 20px;
+}
+header .pc .gnb li {
+  margin-left: 20px;
+}
+header .pc .gnb li a {
+  font-size: 18px;
+}
+header .pc .lnb {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  right: 0;
+}
+header .pc .lnb li {
+  margin-right: 15px;
+  cursor: pointer;
+}
+header .pc .lnb li:last-child {
+  margin-right: 0;
+}
+header .pc .lnb li > a {
+  font-size: 15px;
+}
+header .pc .profile-wrap {
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+header .pc .profile {
+  width: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .pc .profile img {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+}
+header .pc .profile span {
+  font-size: 15px;
+  font-weight: 500;
+}
+header .pc .user {
+  width: 130px;
+  height: 30px;
+  display: flex;
+  position: absolute;
+  right: 0;
+  opacity: 0;
+  background-color: #fff;
+} 
+header .pc .user:hover {
+  opacity: 1;
+  width: 100px;
+  height: 75px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 30px;
+  right: 0;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+header .pc .user div {
+  width: 100%;
+  padding: 5px 0;
+  color: #a1a1a1;
+  font-size: 15px;
+  text-align: center;
+  cursor: pointer;
+  display: none;
+}
+header .pc .user:hover div {
+  display: block;
+}
+header .pc .user div:hover {
+  background-color: #f2f2f2;
+}
+header .mob {
+  display: none;
+}
+
+
+@media (max-width: 767px) {
+  header {
+    width: 100vw;
+    height: 80px;
+  }
+  header .inner {
+    width: 100%;
+    padding: 0 20px;
+  }
+  header nav.pc {
+    display: none;
+  }
+  header nav.mob {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+  header .nav-wrap {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  header .mob .logo img {
+    width: 130px;
+  }
+  header .mob .gnb {
+    display: flex;
+    margin-top: 5px;
+  }
+  header .mob .gnb li:nth-child(2) {
+    margin: 0 20px;
+  }
+  header .mob .gnb li a {
+    font-size: 13px;
+  }
+  header .mob .lnb {
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+  }
+  header .mob .lnb li {
+    margin-right: 15px;
+  }
+  header .mob .lnb li:last-child {
+    margin-right: 0;
+  }
+  header .mob .profile img {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+  }
+}

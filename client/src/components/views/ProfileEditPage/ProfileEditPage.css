@@ -1,0 +1,196 @@
+.profile-edit .profile-edit-box {
+  margin: 170px 0 150px;
+}
+.profile-edit form > div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.profile-edit .image {
+  height: 150px;
+  position: relative;
+  justify-content: center;
+}
+.profile-edit .image-upload {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+}
+.profile-edit .image-upload img:first-child {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 100%;
+  position: absolute;
+}
+.profile-edit .image-upload img:nth-child(2) {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.profile-edit .file-upload {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  position: relative;
+  z-index: 1;
+  cursor: pointer;
+}
+.profile-edit .image-file-upload {
+  width: 150px;
+  height: 150px;
+  background-color: #fff;
+  z-index: 1;
+}
+.profile-edit .image-file-upload img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 100%;
+  z-index: 2;
+}
+.profile-edit label {
+  width: 50%;
+  font-size: 20px;
+  font-weight: 500;
+}
+.profile-edit span {
+  font-size: 18px;
+}
+.profile-edit hr {
+  width: 100%;
+  height: 1px;
+  margin: 25px auto;
+  border: none;
+  background-color: #ededed;
+  box-sizing: border-box;
+}
+.profile-edit .name {
+  margin-top: 100px;
+}
+.profile-edit input {
+  width: 250px;
+  padding: 10px 15px;
+  font-size: 18px;
+  border: 1px solid #ededed;
+  border-radius: 2px;
+  background-color: #fff;
+}
+.profile-edit input::placeholder {
+  color: #a1a1a1;
+  font-size: 15px;
+}
+.profile-edit .btn {
+  width: 100%;
+  margin-top: 120px;
+  display: flex;
+  justify-content: center;
+}
+.profile-edit button {
+  width: 270px;
+  height: 60px;
+  display: block;
+  font-size: 20px;
+  text-align: center;
+  line-height: 60px;
+  border-radius: 50px;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+}
+.profile-edit .cancel {
+  color: #f9714b;
+  border: 1.5px solid #f9714b;
+  background-color: #fff;
+}
+.profile-edit .submit {
+  color: #fff;
+  background-color: #f9714b;
+  margin-left: 30px;
+}
+.profile-edit .submit:hover {
+  background-color: #e3613d;
+}
+
+
+@media (max-width: 767px) {
+  .profile-edit {
+    width: 100vw;
+  }
+  .profile-edit .inner {
+    width: 100%;
+    padding: 0 20px;
+  }
+  .profile-edit .profile-edit-box {
+    margin: 130px 0 100px;
+    flex-direction: column;
+  }
+  .profile-edit .image {
+    height: 80px;
+  }
+  .profile-edit .image-upload {
+    width: 80px;
+    height: 80px;
+  }
+  .profile-edit .image-upload img:first-child {
+    width: 80px;
+    height: 80px;
+  }
+  .profile-edit .image-upload img:nth-child(2) {
+    width: 30px;
+    height: 30px;
+  }
+  .profile-edit .file-upload {
+    width: 80px;
+    height: 80px;
+  }
+  .profile-edit .image-file-upload {
+    width: 80px;
+    height: 80px;
+  }
+  .profile-edit .image-file-upload img {
+    width: 80px;
+    height: 80px;
+  }
+  .profile-edit label {
+    width: 30%;
+    font-size: 12px;
+  }
+  .profile-edit span {
+    font-size: 12px;
+  }
+  .profile-edit hr {
+    height: .5px;
+    margin: 15px auto;
+  }
+  .profile-edit .name {
+    margin-top: 50px;
+  }
+
+  .profile-edit input {
+    width: 165px;
+    padding: 5px 10px;
+    font-size: 12px;
+    border: .5px solid #ededed;
+  }
+  .profile-edit input::placeholder {
+    font-size: 10px;
+  }
+  .profile-edit .btn {
+    margin-top: 50px;
+  }
+  .profile-edit button {
+    width: 135px;
+    height: 35px;
+    font-size: 12px;
+    line-height: 30px;
+    border-radius: 25px;
+  }
+  .profile-edit .cancel {
+    border: 1px solid #f9714b;
+  }
+  .profile-edit .submit {
+    margin-left: 15px;
+  }
+}
+

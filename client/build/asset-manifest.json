@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4b37a623.chunk.css",
+    "main.js": "/static/js/main.1eb01dc1.chunk.js",
+    "main.js.map": "/static/js/main.1eb01dc1.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.49edcc0a.js",
+    "runtime-main.js.map": "/static/js/runtime-main.49edcc0a.js.map",
+    "static/css/2.0eecc451.chunk.css": "/static/css/2.0eecc451.chunk.css",
+    "static/js/2.35e42ec7.chunk.js": "/static/js/2.35e42ec7.chunk.js",
+    "static/js/2.35e42ec7.chunk.js.map": "/static/js/2.35e42ec7.chunk.js.map",
+    "static/js/3.77f4480e.chunk.js": "/static/js/3.77f4480e.chunk.js",
+    "static/js/3.77f4480e.chunk.js.map": "/static/js/3.77f4480e.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.0eecc451.chunk.css.map": "/static/css/2.0eecc451.chunk.css.map",
+    "static/css/main.4b37a623.chunk.css.map": "/static/css/main.4b37a623.chunk.css.map",
+    "static/js/2.35e42ec7.chunk.js.LICENSE.txt": "/static/js/2.35e42ec7.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/static/media/NotoSansKR-Regular.e95adf0e.woff2"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.49edcc0a.js",
+    "static/css/2.0eecc451.chunk.css",
+    "static/js/2.35e42ec7.chunk.js",
+    "static/css/main.4b37a623.chunk.css",
+    "static/js/main.1eb01dc1.chunk.js"
+  ]
+}

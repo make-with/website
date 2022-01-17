@@ -1,0 +1,447 @@
+.ask-detail .ask-detail-box {
+  width: 100%;
+  margin: 170px 0 150px;
+}
+.ask-detail h2 {
+  font-size: 30px;
+  font-weight: 500;
+  text-align: center;
+}
+.ask-detail h3 {
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 30px;
+}
+.ask-detail h3 span {
+  color: #f9714b;
+}
+.ask-detail .ask-content-wrap {
+  margin-top: 50px;
+}
+.ask-detail .ask-info-wrap {
+  width: 100%;
+  height: 50px;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px;
+}
+.ask-detail .ask-info {
+  display: flex;
+  align-items: center;
+}
+.ask-detail .ask-info > div {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+.ask-detail .ask-info > div:last-child {
+  margin-right: 0;
+}
+.ask-detail h4 {
+  font-size: 18px;
+  font-weight: 500;
+}
+.ask-detail h5 {
+  color: #555;
+  display: flex;
+  align-items: center;
+}
+.ask-detail h5::before {
+  content: "";
+  width: 1px;
+  height: 12px;
+  background-color: #a1a1a1;
+  margin: 0 10px;
+}
+.ask-detail .sns {
+  display: flex;
+  align-items: center;
+}
+.ask-detail .mob-sns {
+  display: none;
+}
+.ask-detail .sns a {
+  margin-right: 15px;
+}
+.ask-detail .sns img {
+  width: 25px;
+  height: 25px;
+}
+.ask-detail .sns a:first-child img {
+  border-radius: 5px;
+}
+.ask-detail .sns a:last-child {
+  margin-right: 0;
+}
+.ask-detail .ask-step-wrap {
+  margin-top: 150px;
+  position: relative;
+}
+.ask-detail .ask-step-wrap hr {
+  width: 100%;
+  height: 1px;
+  border: none;
+  background-color: #ededed;
+  box-sizing: border-box;
+  position: absolute;
+  top: 7.5px;
+}
+.ask-detail .ask-step {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.ask-detail .ask-step div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.ask-detail .circle {
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  border: 1.2px solid #a1a1a1;
+  background-color: #fff;
+}
+.ask-detail .circle.On {
+  width: 17px;
+  height: 17px;
+  border: 2px solid rgba(249, 113, 75, .8);
+}
+.ask-detail .text {
+  color: #a1a1a1;
+  font-size: 18px;
+  margin-top: 20px;
+}
+.ask-detail .text.On {
+  color: #f9714b;
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 20px;
+}
+.ask-detail .ask-detail-content {
+  margin-top: 100px;
+}
+.ask-detail h6 {
+  font-size: 20px;
+  font-weight: 500;
+}
+.ask-detail .ask-detail-content p {
+  color: #a1a1a1;
+  font-size: 18px;
+  margin-top: 15px;
+}
+.ask-detail .btn {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+.ask-detail .link {
+  width: 270px;
+  height: 60px;
+  color: #a1a1a1;
+  font-size: 20px;
+  text-align: center;
+  line-height: 60px;
+  border-radius: 50px;
+  background-color: #f2f2f2;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+}
+.ask-detail .link:hover {
+  background-color: #e4e4e4;
+}
+.ask-detail .like {
+  width: 270px;
+  height: 60px;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  line-height: 60px;
+  border-radius: 50px;
+  background-color: #f9714b;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+  margin-left: 30px;
+}
+.ask-detail .like:hover {
+  background-color: #e3613d
+}
+.ask-detail .ask-detail-box > hr {
+  width: 100%;
+  height: 1px;
+  border: none;
+  background-color: #ededed;
+  box-sizing: border-box;
+  margin: 100px auto 25px auto;
+}
+.ask-detail .comment-wrap {
+  width: 100%;
+}
+.ask-detail .comment-wrap > span {
+  font-size: 20px;
+  font-weight: 500;
+}
+.ask-detail .comment-input {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+.ask-detail .comment-wrap img {
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+}
+.ask-detail .comment-input form {
+  width: 100%;
+  margin-left: 20px;
+  display: flex;
+}
+.ask-detail textarea {
+  flex: 1;
+  height: 40px;
+  color: #404040;
+  padding: 8px 15px;
+  border: 1px solid #ededed;
+  border-radius: 2px;
+  background-color: #fff;
+  resize: none;
+  overflow: hidden; 
+}
+.ask-detail textarea::placeholder {
+  color: #a1a1a1;
+}
+.ask-detail .comment-input button {
+  color: #fff;
+  font-size: 18px;
+  padding: 8px 25px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f9714b;
+  cursor: pointer;
+}
+.ask-detail .comment-input button:hover {
+  background-color: #e3613d
+}
+.ask-detail .single-comment {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+}
+.ask-detail .comment-box {
+  width: 100%;
+  margin-left: 20px;
+}
+.ask-detail .comment-info span {
+  font-size: 18px;
+  font-weight: 500;
+}
+.ask-detail .comment-info p {
+  margin-top: 10px;
+}
+.ask-detail .reply-btn {
+  margin-top: 15px;
+}
+.ask-detail .reply-btn button:not(.reply-submit) {
+  color: #a1a1a1;
+  font-weight: 500;
+  background-color: #fff
+}
+.ask-detail .reply-btn div > button {
+  margin-top: 10px;
+  font-weight: normal;
+  display: flex;
+  align-items: center;
+}
+.ask-detail .reply-btn .material-icons {
+  color: #a1a1a1;
+}
+
+
+@media (max-width: 767px) {
+  .ask-detail {
+    width: 100vw;
+  }
+  .ask-detail .inner {
+    width: 100%;
+  }
+  .ask-detail .ask-detail-box {
+    margin: 130px 0 100px;
+  }
+  .ask-detail h2 {
+    font-size: 15px;
+  }
+  .ask-detail h3 {
+    font-size: 13px;
+    margin-top: 10px;
+  }
+  .ask-detail .ask-content-wrap {
+    padding: 0 20px;
+    margin-top: 25px;
+  }
+  .ask-detail .ask-info-wrap {
+    height: 30px;
+    border-radius: 3px;
+    padding: 0 15px;
+  }
+  .ask-detail .ask-info {
+    width: 100%;
+    justify-content: center;
+  }
+  .ask-detail .ask-info > div {
+    margin-right: 10px;
+  }
+  .ask-detail h4 {
+    font-size: 10px;
+  }
+  .ask-detail h5 {
+    font-size: 10px;
+  }
+  .ask-detail h5::before {
+    content: "";
+    width: 1px;
+    height: 6px;
+    margin: 0 5px;
+  }
+  .ask-detail .sns {
+    display: none;
+  }
+  .ask-detail .mob-sns {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+  }
+  .ask-detail .mob-sns a {
+    display: block;
+    margin-right: 7px;
+  }
+  .ask-detail .mob-sns a:last-child {
+    margin-right: 0;
+  }
+  .ask-detail .mob-sns img {
+    width: 18px;
+    height: 18px;
+  }
+  .ask-detail .ask-step-wrap {
+    margin-top: 50px;
+  }
+  .ask-detail .ask-step-wrap hr {
+    top: 5px;
+  }
+  .ask-detail .circle {
+    width: 10px;
+    height: 10px;
+  }
+  .ask-detail .circle.On {
+    width: 12px;
+    height: 12px;
+  }
+  .ask-detail .text {
+    font-size: 12px;
+    margin-top: 10px;
+  }
+  .ask-detail .text.On {
+    font-size: 12px;
+    margin-top: 10px;
+  }
+  .ask-detail .ask-detail-content {
+    margin-top: 50px;
+  }
+  .ask-detail h6 {
+    font-size: 12px;
+  }
+  .ask-detail .ask-detail-content p {
+    font-size: 10px;
+    margin-top: 10px;
+  }
+  .ask-detail .btn {
+    width: 100%;
+    padding: 15px 0;
+    position: fixed;
+    bottom: 0;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 3;
+    margin: 0 auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  .ask-detail .link {
+    width: 42.5%;
+    height: 40px;
+    font-size: 15px;
+    line-height: 40px;
+    border-radius: 5px;
+  }
+  .ask-detail .like {
+    width: 42.5%;
+    height: 40px;
+    font-size: 15px;
+    line-height: 40px;
+    border-radius: 5px;
+    margin-left: 15px;
+  }
+  .ask-detail .ask-detail-box > hr {
+    margin: 50px auto 15px auto;
+  }
+  .ask-detail .comment-wrap {
+    padding: 0 20px;
+  }
+  .ask-detail .comment-wrap > span {
+    font-size: 12px;
+  }
+  .ask-detail .comment-input {
+    margin-top: 10px;
+  }
+  .ask-detail .comment-wrap img {
+    width: 20px;
+    height: 20px;
+  }
+  .ask-detail .comment-input form {
+    margin-left: 7px;
+  }
+  .ask-detail textarea {
+    height: 25px;
+    font-size: 10px;
+    padding: 5px 7px;
+    border: .5px solid #ededed;
+  }
+  .ask-detail textarea::placeholder {
+    font-size: 10px;
+  }
+  .ask-detail .comment-input button {
+    font-size: 10px;
+    padding: 5px 10px;
+    margin-left: 7px;
+    border-radius: 3px;
+  }
+  .ask-detail .single-comment {
+    margin-top: 10px;
+  }
+  .ask-detail .comment-box {
+    margin-left: 7px;
+  }
+  .ask-detail .comment-info span {
+    font-size: 12px;
+  }
+  .ask-detail .comment-info p {
+    font-size: 10px;
+    margin-top: 3px;
+  }
+  .ask-detail .reply-btn {
+    font-size: 10px;
+    margin-top: 5px;
+  }
+  .ask-detail .reply-btn div > button {
+    margin-top: 3px;
+  }
+  .ask-detail .reply-btn .material-icons {
+    font-size: 16px;
+  }
+}
